@@ -1,0 +1,93 @@
+body {
+    margin: 0 25px;
+    background-color: rgb(236, 236, 236);
+}
+.originalPost {
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    width: 1450px;
+}
+#op {
+    margin: 5px 0px;
+}
+#opContent {
+    margin: 5px 0px 10px;
+}
+.spacer
+{
+    width: 100%;
+    height: 115px;
+}
+.commentSection {
+    background-color: rgb(204, 204, 204);
+    width: 1450px;
+    padding: 20px;
+    /* display: none; */
+}
+#postedComment {
+    background-color: white;
+    padding: 5px;
+    margin: 15px 0px;
+}
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+#postedUser {
+    margin: 16px 0 0 0;
+}
+#substance {
+    margin: 0 0 16px;
+    margin-left: 50px;
+}
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+}
+#editButton, #deleteButton {
+    margin-right: 10px;
+    color: lightblue;;
+    cursor: pointer;
+}
+.writeComment {
+    display: flex;
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+#username {
+    width: 100px;
+    margin: 0 5px;
+}
+#comment {
+    width: 1270px;
+    margin: 0 10px 0 0;
+}
+#submitButton {
+    color: lightblue;
+    align-self: center;
+}
+#submitButton:hover {
+    cursor: pointer;
+}
+.editContainer {
+    display: flex;
+    height: 30px;
+}
+#editBox {
+    width: 1275px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+#editSubmit {
+    color: lightblue;
+    align-self: center;
+}
+#editSubmit:hover {
+    cursor: pointer;
+}
